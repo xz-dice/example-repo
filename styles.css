@@ -6,7 +6,7 @@ body {
    margin: 0;
 }
 
-nav {
+nav.nav-bar-one {
    display: flex;
    justify-content: space-between;
    background-color: #F8F8F8;
@@ -16,6 +16,16 @@ nav {
    text-transform: uppercase;
    letter-spacing: .1rem;
    padding: 10px;
+}
+
+nav.nav-bar-two {
+   display: flex;
+   justify-content: flex-end;
+   font-weight: bold;
+   font-family: arial;
+   text-transform: uppercase;
+   letter-spacing: .1rem;
+   padding: 4rem 3rem;
 }
 
 div.telephone-number {
