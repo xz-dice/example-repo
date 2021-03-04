@@ -1,6 +1,7 @@
 * {
    box-sizing: border-box;
 }
+
 body {
    margin: 0;
 }
@@ -46,7 +47,14 @@ input{
 }
 
 header {
-   background-color: #E4E7EB;
+	  background-image: url('plane.jpeg');
+	  background-repeat: no-repeat;
+	  color: #ffffff;
+	  
+}
+
+header h1.{
+   letter-spacing: .1rem;
 }
 
 section {
@@ -68,6 +76,7 @@ form button {
    border-radius: 5px;
    border: 0;
    background-image: url('magglass.png');
+   background-size: ;
    cursor: pointer;
 }
 
