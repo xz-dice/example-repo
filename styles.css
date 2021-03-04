@@ -35,6 +35,16 @@ div.telephone-number {
    float: right;
 }
 
+li.usd {
+	border-left-style: solid;
+}
+
+input{
+	border-style: hidden;
+	background-color: #F8F8F8;
+	
+}
+
 header {
    background-color: #E4E7EB;
 }
@@ -53,11 +63,19 @@ header h1 {
    margin: 0;
 }
 
-section button {
+form button {
    padding: 10px 7px;
    border-radius: 5px;
    border: 0;
-   background-color: #0D60FE;
+   background-image: url('magglass.png');
+   cursor: pointer;
+}
+
+.main button {
+   padding: 10px 7px;
+   border-radius: 5px;
+   border: 0;
+   background-color: transparent;
    color: #ffffff;
    cursor: pointer;
 }
