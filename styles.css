@@ -15,17 +15,22 @@ nav.nav-bar-one {
    font-family: arial;
    text-transform: uppercase;
    letter-spacing: .1rem;
-   padding: 10px;
+   padding: 1rem;
+}
+img {
+	padding-left: 1rem;
+	max-width: 15%;
+	display: inline-block;
 }
 
 nav.nav-bar-two {
    display: flex;
-   justify-content: flex-end;
+   justify-content: center;
    font-weight: bold;
    font-family: arial;
    text-transform: uppercase;
    letter-spacing: .1rem;
-   padding: 4rem 3rem;
+   padding: 1rem;
 }
 
 div.telephone-number {
@@ -36,7 +41,7 @@ div.telephone-number {
 
 .nav-links {
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    
 }
 
@@ -57,14 +62,19 @@ input{
 }
 
 header {
-	  background-image: url('plane.jpeg');
-	  background-repeat: no-repeat;
-	  color: #ffffff;
+	background: url('plane.jpeg') 50% 50% no-repeat;
+	background-size: cover;
+	color: #ffffff;
 	  
 }
 
 header h1.{
    letter-spacing: .1rem;
+}
+
+
+h2 {
+	text-transform: uppercase;
 }
 
 section {
@@ -86,7 +96,7 @@ form button {
    border-radius: 5px;
    border: 0;
    background-image: url('magglass.png');
-   background-size: ;
+   background-size: cover;
    cursor: pointer;
 }
 
