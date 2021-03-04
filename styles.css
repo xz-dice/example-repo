@@ -113,14 +113,11 @@ main section {
    display: flex;
 }
 
-main section div:nth-child(2) {
-   margin: 0 30px;
-}
+
 main button {
    background-color: #59626A;
 }
 
 footer section {
    margin-top: 20px;
-   border-top: 1px solid #DFDFDF;
 }
