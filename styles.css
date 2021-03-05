@@ -24,7 +24,7 @@ div.nav-bar-one {
 
 .nav-bar-two img {
 	padding-left: 1rem;
-	max-width: 15%;
+	max-width: 30%;
 }
 
 div.nav-bar-two {
@@ -34,7 +34,7 @@ div.nav-bar-two {
    font-family: arial;
    text-transform: uppercase;
    letter-spacing: .1rem;
-   padding: 1rem;
+   padding: 2.5rem;
 }
 
 input {
@@ -43,6 +43,10 @@ input {
 	font-weight: bold;
 	font-family: arial;
 	color: #A3A3A3;
+	border-style: hidden;
+	background-color: #F8F8F8;
+	padding-left: 20px;
+	padding-right: 0px;
 
 }
 
@@ -71,17 +75,35 @@ div.telephone-number {
 
 li.usd {
 	border-left-style: solid;
+	border-right-style: solid;
+	padding: 10px;
 }
 
-input {
-	border-style: hidden;
-	background-color: #F8F8F8;
-	padding-left: 20px;
-	padding-right: 0px;
-	
+li.cart {
+	border-right-style: solid;
+	padding-right: 10px;
+}
+
+
+header {
+	background: url('plane.jpeg') 50% 50% no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	display: flex;
+	overflow: auto;	  
+}
+
+h1 {
+   	flex-grow: 3;
+   	font-size: 90px;
+   	margin: 0;
+   	letter-spacing: .5rem;
+   	font-family: helvetica;
+   	text-transform: uppercase;
 }
 
 section p {
+	flex-grow: 1;
     font-size: 20px;
     margin: 0;
     letter-spacing: .25rem;
@@ -91,48 +113,35 @@ section p {
 	font-weight: bold;
 }
 
-header {
-	background: url('plane.jpeg') 50% 50% no-repeat;
-	background-size: cover;
-	color: #ffffff;
-	display: flex;
-	overflow: auto;
-	  
-}
-h1 {
-   font-size: 40px;
-   margin: 0;
-   letter-spacing: .5rem;
-   font-family: helvetica;
-   text-transform: uppercase;
-   align-self: center;
-}
-
 h2 {
 	text-transform: uppercase;
 }
 
 section.main {
-   width: 900px;
    margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 header section {
    padding: 50px 0;
+   width: 900px;
+   height: 600px;
 }
 
 main section{
    display: flex;
 }
 
-.main button {
+button {
    padding: 10px 7px;
    border-radius: 5px;
+   border-color: #ffffff;
    border: 0;
    background-color: transparent;
    color: #ffffff;
    cursor: pointer;
-   background-color: #59626A;
 }
   
 
