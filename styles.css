@@ -17,7 +17,8 @@ nav.nav-bar-one {
    letter-spacing: .1rem;
    padding: 1rem;
 }
-img {
+
+.nav-bar-two img {
 	padding-left: 1rem;
 	max-width: 15%;
 	display: inline-block;
