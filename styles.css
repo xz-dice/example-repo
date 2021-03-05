@@ -6,7 +6,7 @@ body {
    margin: 0;
 }
 
-nav.nav-bar-one {
+div.nav-bar-one {
    display: flex;
    justify-content: space-between;
    background-color: #F8F8F8;
@@ -24,7 +24,7 @@ nav.nav-bar-one {
 	display: inline-block;
 }
 
-nav.nav-bar-two {
+div.nav-bar-two {
    display: flex;
    justify-content: center;
    font-weight: bold;
