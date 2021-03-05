@@ -90,6 +90,7 @@ header {
 	background-size: cover;
 	color: #ffffff;
 	display: flex;
+	flex-direction: column;
 	overflow: auto;	  
 }
 
@@ -120,6 +121,7 @@ h2 {
 section.main {
    margin: 0 auto;
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
 }
